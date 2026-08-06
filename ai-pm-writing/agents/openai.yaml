@@ -1,0 +1,13 @@
+interface:
+  display_name: AI 产品经理写作
+  short_description: 把 AI 产品知识写成专业、好懂、有判断的中文文章
+  default_prompt: 使用 $ai-pm-writing，把我的主题写成一篇面向 AI／产品新人的专业文章；讲清概念关系，给出有证据的判断，长文采用总—分—总、编号标题和目录，并附排版与配图建议。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
